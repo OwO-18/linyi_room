@@ -139,7 +139,7 @@ function Room() {
       </mesh>
 
       {/* Bed - ENLARGED: 2.4m × 2.6m platform */}
-      <group position={[3, 0.1, 0.5]} rotation={[0, (270 * Math.PI) / 180, 0]}>
+      <group position={[3, 0, 0.8]} rotation={[0, (270 * Math.PI) / 180, 0]}>
         {/* Larger bed platform base */}
         <mesh position={[0, 0.7, 0]} castShadow><boxGeometry args={[2.4, 1.4, 2.6]} /><meshStandardMaterial color="#3D3024" roughness={0.7} /></mesh>
         
@@ -181,7 +181,7 @@ function Room() {
       </group>
 
       {/* Desk - Position: X=1.6, Y=0.0, Z=1.4, Rotation=270° */}
-      <group position={[1.6, 0.0, 1.4]} rotation={[0, (270 * Math.PI) / 180, 0]}>
+      <group position={[1.4, 0.0, 0.2]} rotation={[0, (270 * Math.PI) / 180, 0]}>
         <mesh position={[0, 0.4, 0]} castShadow><boxGeometry args={[1.2, 0.8, 0.8]} /><meshStandardMaterial color="#4A3B2F" roughness={0.6} /></mesh>
         <mesh position={[0, 0.95, -0.15]} castShadow><boxGeometry args={[0.7, 0.45, 0.05]} /><meshStandardMaterial color="#1a1a1a" emissive="#6BB6FF" emissiveIntensity={0.4} /></mesh>
         <mesh position={[0, 0.7, -0.1]} castShadow><cylinderGeometry args={[0.06, 0.08, 0.12]} /><meshStandardMaterial color="#2a2a2a" /></mesh>
