@@ -414,7 +414,7 @@ export default function App() {
         </div>
       </motion.div>
 
-      <Canvas shadows dpr={[1, 2]} gl={{ antialias: true, alpha: false, powerPreference: 'high-performance' }}>
+      <Canvas shadows={false} dpr={[1, 1]} gl={{ antialias: false }}>
         <PerspectiveCamera
           makeDefault
           position={[7.0, 6.5, 9.5]}
