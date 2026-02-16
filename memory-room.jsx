@@ -139,7 +139,7 @@ function Room() {
       </mesh>
 
       {/* Bed - ENLARGED: 2.4m × 2.6m platform */}
-      <group position={[3.3, 0.1, 1.2]} rotation={[0, (270 * Math.PI) / 180, 0]}>
+      <group position={[3, 0.1, 1.5]} rotation={[0, (270 * Math.PI) / 180, 0]}>
         {/* Larger bed platform base */}
         <mesh position={[0, 0.7, 0]} castShadow><boxGeometry args={[2.4, 1.4, 2.6]} /><meshStandardMaterial color="#3D3024" roughness={0.7} /></mesh>
         
