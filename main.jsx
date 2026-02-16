@@ -1,3 +1,5 @@
+import { ResizeObserver as Polyfill } from '@juggle/resize-observer';
+window.ResizeObserver = window.ResizeObserver || Polyfill;
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './memory-room.jsx'

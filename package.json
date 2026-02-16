@@ -9,13 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@juggle/resize-observer": "^3.4.0",
+    "@react-three/drei": "^9.92.7",
+    "@react-three/fiber": "^8.15.12",
+    "framer-motion": "^10.18.0",
+    "leva": "^0.9.35",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "@react-three/fiber": "^8.15.12",
-    "@react-three/drei": "^9.92.7",
-    "three": "^0.160.0",
-    "framer-motion": "^10.18.0",
-    "leva": "^0.9.35"
+    "three": "^0.160.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.47",
