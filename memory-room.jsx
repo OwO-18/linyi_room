@@ -113,7 +113,7 @@ function Room() {
   const { doorX, doorY, doorZ } = useControls('Main Door Position', {
     doorX: { value: -width / 2 + 0.05, min: -width / 2, max: -width / 2 + 0.2, step: 0.01, label: 'X (wall offset)' },
     doorY: { value: 1, min: 0, max: 2, step: 0.1, label: 'Y (height)' },
-    doorZ: { value: 1.8, min: -2, max: 2, step: 0.1, label: 'Z (position)' }
+    doorZ: { value: -0.5, min: -2, max: 2, step: 0.1, label: 'Z (position)' }
   });
 
   return (
