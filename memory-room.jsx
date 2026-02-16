@@ -391,12 +391,9 @@ export default function App() {
           transition={{ duration: 0.8 }}
           className="text-center"
         >
-          <h1 className="text-5xl font-bold text-[#F5E6D3] mb-2" style={{ fontFamily: 'Georgia, serif', letterSpacing: '0.02em' }}>
-            台北小窩 Memory Room
+          <h1 className="text-5xl font-bold text-[#F5E6D3] mb-2" style={{ fontFamily: '"Microsoft JhengHei", "微軟正黑體", sans-serif', letterSpacing: '0.02em' }}>
+            臨沂小窩
           </h1>
-          <p className="text-[#A89378] text-sm tracking-wider uppercase">
-            From your Taipei studio to Tokyo adventures
-          </p>
         </motion.div>
       </div>
 
